@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+	#'django_admin_bootstrapped.bootstrap3',
+
+	# Third party apps
+	'bootstrap3',
+
+	# My apps
+	'webapp',
 ]
 
 MIDDLEWARE = [
@@ -118,3 +125,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#My settings
+
+#Settings for django-bootstrap3
+BOOTSTRAP3 = {
+	'include_jquery': True,
+	}
