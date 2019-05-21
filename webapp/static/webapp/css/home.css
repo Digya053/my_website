@@ -1,0 +1,17 @@
+.customDiv {
+  margin-left:200px;
+  margin-top:300px;
+  min-height:1000px;
+  text-align:justify;
+  font-size:large;
+}
+
+img {
+  border-radius:50%;
+  padding-top:50px;
+}
+
+.basicStyles {
+  background-color:#EFEBE9;
+}
+

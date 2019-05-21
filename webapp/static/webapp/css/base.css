@@ -1,0 +1,32 @@
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background:#BCAAA4;
+    color:#FF0000;
+    padding-right: 15px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color:#D7CCC8;
+    color:#000000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #3e3636;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color:#D7CCC8;
+    color:#000000;
+}
+
+.navbar-nav>li>.dropdown-menu,
+.open>.dropdown-menu{
+    margin-top: 0;
+    background-color:#BCAAA4;
+    color:#FF0000;
+    min-width: 80px;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color:#D7CCC8;
+    color:#000000;
+}

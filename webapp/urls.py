@@ -5,10 +5,9 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-	# Home page
 	path('', views.home),
 	path('home/', views.home, name='home'),
-	#url('/articles', views.articles, name='articles'),
-	#path('/contact', views.contact, name='contact'),
-	
+	path('articles/technical', views.technical, name='technical'),
+	path('articles/non-technical', views.nontechnical, name='non-technical'),
+	path('contact/', views.contact, name='contact'),
 ]

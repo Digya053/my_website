@@ -1,0 +1,9 @@
+.basicStyles {
+  background-color:#EFEBE9;
+}
+
+ul#menu li {
+  display:inline;
+  margin: 0 40px 0 0;
+  font-size: 2em;
+}
