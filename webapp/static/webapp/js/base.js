@@ -1,11 +1,3 @@
-<style>
-   .active { 
-      background-color:#D7CCC8;
-      color:#000000
-</style>
-
-$('li').click(function (){
-  $(this).addClass('active');
-});
-</script>
-
+$('button').click(function () {
+  $(this).css('background-color', '1px solid red');
+}

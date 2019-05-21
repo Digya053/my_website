@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	#'django_admin_bootstrapped.bootstrap3',
 
 	# Third party apps
 	'bootstrap3',
@@ -125,14 +124,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 STATICFILES_FINDERS = (
-				    "django.contrib.staticfiles.finders.FileSystemFinder",
+					"django.contrib.staticfiles.finders.FileSystemFinder",
 					"django.contrib.staticfiles.finders.AppDirectoriesFinder"
-						)
+					)
 STATIC_ROOT = ''
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-	'/home/fm-lt-118/Desktop/nice_books_ml/my_website/github/my_website/webapp/static',
-	)
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'webapp/static')]
 
 # Settings for django-bootstrap3
 BOOTSTRAP3 = {
