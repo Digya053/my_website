@@ -30,3 +30,10 @@
     background-color:#D7CCC8;
     color:#000000;
 }
+
+.navbar.navbar-default .nav-item .nav-link:hover { color: #CC0000; } 
+.navbar.navbar-default .nav-item .nav-link:focus { color: #FF8800; } 
+.navbar.navbar-default .nav-item .nav-link:active { color: #007E33; } 
+.navbar.navbar-default .nav-item .nav-link:visited { color: #0099CC } 
+
+a:visited{color: pink;}
