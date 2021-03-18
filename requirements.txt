@@ -1,5 +1,5 @@
 dj-database-url==0.5.0
-Django==2.2.4
+Django==2.2.18
 -e git+https://github.com/dyve/django-bootstrap3.git@1d4095ba113a1faff228f9592bdad4f0b3aed653#egg=django_bootstrap3
 gunicorn==19.9.0
 psycopg2==2.8.2
